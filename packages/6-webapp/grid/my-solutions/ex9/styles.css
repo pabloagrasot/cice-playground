@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.logo {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+.menu {
+  grid-row: 1 / 1;
+  grid-column: 3 / 5;
+}
+.sidebar {
+  grid-row: 2 / 6;
+  grid-column: 1 / 1;
+}
+
+.content {
+  grid-row: 2 / 4;
+  grid-column: 2 / 6;
+}
+
+.footer {
+  grid-row: 4 / 5;
+  grid-column: 3 / 5;
+}
